@@ -32,7 +32,7 @@ STOP = set(
 )
 
 # How many definition "bridges" to chase per case.
-TERM_BRIDGE_TOP = 8
+TERM_BRIDGE_TOP = 20
 
 # Small legal paraphrase map: everyday words in the questions mapped to the
 # formal vocabulary the definitions use. Bridges the lexical gap that pure BM25
@@ -42,18 +42,38 @@ SYNONYMS = {
     "kidney": ["renal", "haemodialysis"],
     "pool": ["bath", "aquatic", "swimmers", "swimming", "leisure", "gymnasium"],
     "swimming": ["bath", "aquatic", "leisure", "swimmers"],
-    "pass": ["subscription", "ticket", "permit"],
-    "monthly": ["subscription", "days"],
+    "pass": ["subscription", "ticket", "permit", "entitlement"],
+    "monthly": ["subscription", "days", "entitlement", "calendar"],
     "referee": ["adjudicator", "official", "officiating", "controller"],
     "umpire": ["adjudicator", "official"],
+    "volleyball": ["adjudicator", "official", "fixture"],
     "specialist": ["consultation", "secondary", "physician", "branch"],
     "doctor": ["physician", "consultation"],
     "appointment": ["consultation", "attendance"],
     "student": ["pupil", "enrolled", "full-time"],
     "pensioner": ["pension", "retired", "basic"],
     "disabled": ["disability", "impairment"],
-    "bike": ["bicycle"],
+    "bike": ["bicycle", "pedal", "two-wheeler"],
+    "bikes": ["bicycle", "pedal", "two-wheeler", "two-wheelers"],
     "ebike": ["bicycle", "electric"],
+    "scout": ["scouting", "fellowship", "warden"],
+    "scouts": ["scouting", "fellowship", "warden"],
+    "ships": ["vessels", "vessel", "port", "channels", "pilotage", "fairway"],
+    "ship": ["vessel", "vessels", "port", "channels", "pilotage", "fairway"],
+    "harbour": ["port", "channels", "fairway", "vessels"],
+    "pilot": ["pilotage", "fairway", "conductor"],
+    "pilots": ["pilotage", "fairway", "conductor"],
+    "paramedic": ["ambulance", "clinician", "clinicians"],
+    "paramedics": ["ambulance", "clinician", "clinicians"],
+    "ambulance": ["clinician", "paramedic"],
+    "cottage": ["dwelling", "island", "rentals"],
+    "refrigerator": ["appliance", "household", "energy"],
+    "fridge": ["appliance", "household"],
+    "island": ["islands", "dwelling", "rentals", "municipality"],
+    "rental": ["rentals", "rent", "dwelling"],
+    "rentals": ["rental", "rent", "dwelling"],
+    "water": ["potable", "supply", "tapping"],
+    "mains": ["potable", "tapping", "connection"],
     "car": ["vehicle", "motor"],
     "night": ["shifts", "evening"],
     "injury": ["injured", "injuries", "hurt"],
@@ -65,8 +85,10 @@ SYNONYMS = {
     "reduction": ["abatement", "reduced", "rebate"],
     "library": ["card", "borrower"],
     "toll": ["passage", "road"],
-    "medicine": ["dispensed", "medicament", "pharmaceutical"],
-    "medication": ["dispensed", "medicine"],
+    "medicine": ["dispensed", "medicament", "pharmaceutical", "package"],
+    "medication": ["dispensed", "medicine", "package"],
+    "pharmacy": ["dispensed", "medicine", "prescription"],
+    "prescription": ["dispensed", "medicine", "levy"],
 }
 
 
@@ -204,23 +226,36 @@ class Index:
         return [pid for pid, _ in ranked[:k]]
 
 
+SEC_RE = re.compile(r"\b(?:section|sections)\s+(\d+)\b", re.IGNORECASE)
+
+
 def _build_ref_graph(provisions):
     """Map every section -> set of provisions that reference it in their text.
 
-    Lets us walk the override/definition graph in both directions cheaply.
+    Lets us walk the override/definition graph in both directions cheaply,
+    including both cross-act references ('FDA §14') and intra-act references
+    ('section 14' within the same act, e.g. transitional provisions).
     """
     refers_to = defaultdict(set)   # pid -> sections it mentions
     referenced_by = defaultdict(set)  # section -> pids that mention it
     for pid, versions in provisions.items():
+        act = pid.split(" ")[0]
         for v in versions:
+            # 1. cross-act references: "FDA §14"
             for m in REF_RE.finditer(v["text"]):
                 ref = f"{m.group(1)} §{m.group(2)}"
                 refers_to[pid].add(ref)
                 referenced_by[ref].add(pid)
+            # 2. intra-act references: "section 14" within the same act
+            for m in SEC_RE.finditer(v["text"]):
+                ref = f"{act} §{m.group(1)}"
+                if ref in provisions and ref != pid:
+                    refers_to[pid].add(ref)
+                    referenced_by[ref].add(pid)
     return refers_to, referenced_by
 
 
-def candidates(case, provisions, index, k_bm25=40, max_total=60):
+def candidates(case, provisions, index, k_bm25=48, max_total=70):
     """Return (ordered list of candidate provision_ids, {pid: in-force version}).
 
     Strategy: start from the cited sections and the strongest lexical matches,
@@ -246,20 +281,18 @@ def candidates(case, provisions, index, k_bm25=40, max_total=60):
 
     # 1. cited provisions
     for s in cited_sections:
-        add(s)
+        add(s, "cited")
 
     # 2. direct overrides: anything that references a cited section
     for s in cited_sections:
         for pid in sorted(index.referenced_by.get(s, ())):
-            add(pid)
+            add(pid, "direct_override")
 
-    # 3. lexical matches on the question + answer. This is what surfaces the
-    #    special-rate act whose definition matches the plain-language facts
-    #    ("dialysis three times a week" -> 'renal filtration patient').
+    # 3. lexical matches on the question + answer.
     q_tokens = _tokens(case.get("question", "") + " " + case.get("answer", ""))
     lexical = index.bm25(q_tokens, k=k_bm25)
     for pid in lexical:
-        add(pid)
+        add(pid, "lexical")
 
     # 4a. defined-term chains: a term literally present in the question/answer/cited text
     hay = (case.get("question", "") + " " + case.get("answer", "")).lower()
@@ -269,15 +302,11 @@ def candidates(case, provisions, index, k_bm25=40, max_total=60):
     for term, def_pids in index.term_defs.items():
         if term in hay:
             for pid in def_pids:
-                add(pid)
+                add(pid, "term_def")
             for pid in index.term_users.get(term, ()):
-                add(pid)
+                add(pid, "term_user")
 
-    # 4b. defined-term BRIDGE: the hard cross-act cases. The question describes
-    #     facts in plain language ("dialysis three times a week") that match a
-    #     formal definition ("renal filtration patient ... haemodialysis ...").
-    #     Expand the query with legal synonyms, find the best-matching definitions,
-    #     and pull in both the definition and the operative rules that use the term.
+    # 4b. defined-term BRIDGE: the hard cross-act cases.
     expanded = list(q_tokens)
     for w in list(q_tokens):
         expanded.extend(SYNONYMS.get(w, ()))
@@ -287,38 +316,40 @@ def candidates(case, provisions, index, k_bm25=40, max_total=60):
         for pid in index.term_users.get(term, ()):
             add(pid, "bridge")
 
-    # 5. graph walk: for two hops, pull in whatever the current candidates
-    #    reference and whatever references them. Definitions/overrides/schedules
-    #    form short chains (operative rule -> defined term -> category table).
+    # 5. graph walk: for two hops
     frontier = list(ordered)
     for _hop in range(2):
         nxt = []
         for pid in frontier:
             for ref in index.refers_to.get(pid, ()):      # downward: what it points at
-                if add(ref):
+                if add(ref, "graph"):
                     nxt.append(ref)
             for src in index.referenced_by.get(pid, ()):  # upward: what points at it
-                if add(src):
+                if add(src, "graph"):
                     nxt.append(src)
         frontier = nxt
         if len(ordered) >= max_total * 2:
             break
 
-    # Rank: keep cited + overrides + top lexical first, then prefer provisions
-    # that carry an override signal, then the rest, trimming to max_total.
+    # Rank: direct overrides and cited provisions stay at the top.
     lex12 = set(lexical[:12])
     priority = {}
     for i, pid in enumerate(ordered):
+        src = source.get(pid)
         if pid in cited_sections:
             p = 100
+        elif src == "direct_override":
+            p = 95
         elif pid in lex12:
             p = 90 - lexical.index(pid)
-        elif source.get(pid) == "bridge" and pid in index.override_markers:
-            p = 78  # operative special rule found via a definition bridge
-        elif source.get(pid) == "bridge":
+        elif src == "bridge" and pid in index.override_markers:
+            p = 80
+        elif src == "bridge":
+            p = 75
+        elif src in ("term_user", "term_def"):
             p = 70
         elif pid in index.override_markers:
-            p = 50
+            p = 60
         elif pid in lexical:
             p = 40 - min(lexical.index(pid), 30)
         else:

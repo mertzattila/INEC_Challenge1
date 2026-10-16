@@ -34,10 +34,12 @@ Critical rules of interpretation:
   if genuinely none applies to the stated facts. If a special rate does apply, BLOCK.
 - A newer version of the cited section in force on the ask date (different fee/number)
   makes an answer citing the old number wrong -> BLOCK, evidence = that section.
+- If a cited section was NOT IN FORCE on the ask date -> BLOCK, evidence = that cited section.
+- Transitional rules: if a fee or rate changed but a transitional rule in force protects or grandfathers the user based on registration date -> BLOCK, evidence = that transitional section.
 - When you BLOCK, pick the SINGLE provision that most directly proves the answer
-  wrong, at section level (e.g. "SSA §7", never "SSA §7(1)"). If several prove it,
-  any one is fine; prefer the operative rule (the special rate / override / new
-  version), not the pure definition.
+  wrong, at section level (e.g. "SSA §7", "FDA §40", never "SSA §7(1)"). If several prove it,
+  any one is fine; prefer the operative rule (the special rate / override / transitional rule / new version),
+  not the pure definition.
 
 Respond with ONLY a JSON object, no prose:
 {"decision": "SHIP"} or {"decision": "BLOCK", "evidence": "SSA §7"}"""
