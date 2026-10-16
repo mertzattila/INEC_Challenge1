@@ -24,22 +24,18 @@ SHIP the answer only if ALL four conditions hold on the law in force on the ask 
 Otherwise BLOCK.
 
 Critical rules of interpretation:
-- Do NOT assume facts the question does not state. If the question does not say the
-  person is a student, a student-only rule does NOT make the answer wrong.
-- A defined term (e.g. 'renal filtration patient', 'leisure subscription') has a
-  formal definition that may live in a different act and applies across all acts.
-  Apply a special rule ONLY if the question's stated facts actually satisfy that
-  definition. Read definitions carefully (thresholds, time windows, roles).
-- An answer that says "no discount/reduction/special rate applies" is CORRECT only
-  if genuinely none applies to the stated facts. If a special rate does apply, BLOCK.
-- A newer version of the cited section in force on the ask date (different fee/number)
-  makes an answer citing the old number wrong -> BLOCK, evidence = that section.
+- Do NOT assume facts the question does not state: If the question does not say the person is a student or registered peat cutter, a student-only or peat-cutter-only rule does NOT apply and does NOT make the answer wrong.
+- Strict condition & threshold verification: Check numbers, limits, quotas, and timing conditions meticulously!
+  * If a special rule requires "at least 30 matches" and the person only refereed 22 matches, the rule DOES NOT APPLY.
+  * If a discount applies "for at most 10 nights" and the person already used 10 nights, the discount is exhausted and DOES NOT APPLY.
+  * If an exemption applies only to the "first month" or "beginning attendance" and the person attended since months ago, it DOES NOT APPLY.
+  * If an answer correctly states "no reduction applies" or quotes the standard fee because the person fails the threshold, the answer is CORRECT -> SHIP it!
+- A defined term (e.g. 'renal filtration patient', 'leisure subscription') has a formal definition that may live in a different act and applies across all acts. Apply a special rule ONLY if the question's stated facts actually satisfy every element of that definition.
+- A newer version of the cited section in force on the ask date (different fee/number) makes an answer citing the old number wrong -> BLOCK, evidence = that section.
 - If a cited section was NOT IN FORCE on the ask date -> BLOCK, evidence = that cited section.
 - Transitional rules: if a fee or rate changed but a transitional rule in force protects or grandfathers the user based on registration date -> BLOCK, evidence = that transitional section.
-- When you BLOCK, pick the SINGLE provision that most directly proves the answer
-  wrong, at section level (e.g. "SSA §7", "FDA §40", never "SSA §7(1)"). If several prove it,
-  any one is fine; prefer the operative rule (the special rate / override / transitional rule / new version),
-  not the pure definition.
+- Do NOT cite a provision as evidence to BLOCK if that provision is already cited in the answer, unless the answer misapplied its text or numbers.
+- When you BLOCK, pick the SINGLE provision that most directly proves the answer wrong, at section level (e.g. "SSA §7", "FDA §40", never "SSA §7(1)"). If several prove it, any one is fine; prefer the operative rule (the special rate / override / transitional rule / new version), not the pure definition.
 
 Respond with ONLY a JSON object, no prose:
 {"decision": "SHIP"} or {"decision": "BLOCK", "evidence": "SSA §7"}"""
