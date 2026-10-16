@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# API call log and generated outputs (regenerated per run)
+calls.jsonl
+submission.csv
+practice_submission.csv
+*_submission.csv
+
+# local env
+.env

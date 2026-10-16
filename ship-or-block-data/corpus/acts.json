@@ -1,0 +1,1718 @@
+[
+ {
+  "act_id": "AAG",
+  "title": "Heritage Site Access Permit Act"
+ },
+ {
+  "act_id": "AAP",
+  "title": "Cybersecurity Certification Act"
+ },
+ {
+  "act_id": "ADA",
+  "title": "Adult Learning Act"
+ },
+ {
+  "act_id": "ADP",
+  "title": "Amusement Device Permit Act"
+ },
+ {
+  "act_id": "AEP",
+  "title": "Archaeological Excavation Permit Act"
+ },
+ {
+  "act_id": "AERA",
+  "title": "Agricultural Equipment Registration Act"
+ },
+ {
+  "act_id": "AGA",
+  "title": "Agricultural Grants Act"
+ },
+ {
+  "act_id": "AGL",
+  "title": "Excise Duty Act"
+ },
+ {
+  "act_id": "AGS",
+  "title": "Agricultural Subsidies Act"
+ },
+ {
+  "act_id": "ALA",
+  "title": "Alcohol Licensing Act"
+ },
+ {
+  "act_id": "ALC",
+  "title": "Agricultural Land Conversion Permit Act"
+ },
+ {
+  "act_id": "ALP",
+  "title": "Agricultural Land Use Permit Act"
+ },
+ {
+  "act_id": "ALZP",
+  "title": "Agricultural Land Zoning Permits Act"
+ },
+ {
+  "act_id": "AMRA",
+  "title": "Asset Management Registration Act"
+ },
+ {
+  "act_id": "AOC",
+  "title": "Air Operator Certificate Fees Act"
+ },
+ {
+  "act_id": "APG",
+  "title": "Agricultural Production Grants Act"
+ },
+ {
+  "act_id": "AQI",
+  "title": "Air Quality Inspection Deadlines Act"
+ },
+ {
+  "act_id": "AQM",
+  "title": "Air Quality Monitoring Permit Act"
+ },
+ {
+  "act_id": "AQMF",
+  "title": "Air Quality Monitoring Fees Act"
+ },
+ {
+  "act_id": "ARF",
+  "title": "Aircraft Registration Fees Act"
+ },
+ {
+  "act_id": "ARL",
+  "title": "Amateur Radio Licences Act"
+ },
+ {
+  "act_id": "ARLA",
+  "title": "Amusement Ride Licences Act"
+ },
+ {
+  "act_id": "ARSI",
+  "title": "Amusement Ride Safety Inspection Act"
+ },
+ {
+  "act_id": "ASG",
+  "title": "Agricultural Subsidy Grants Act"
+ },
+ {
+  "act_id": "ATS",
+  "title": "Air Traffic Control Service Fees Act"
+ },
+ {
+  "act_id": "ATTA",
+  "title": "Air Travel Tariffs Act"
+ },
+ {
+  "act_id": "AWA",
+  "title": "Animal Welfare Act"
+ },
+ {
+  "act_id": "BCA",
+  "title": "Building Control Act"
+ },
+ {
+  "act_id": "BCG",
+  "title": "Biodiversity Conservation Grant Act"
+ },
+ {
+  "act_id": "BCTA",
+  "title": "Bridge Construction Tariffs Act"
+ },
+ {
+  "act_id": "BFM",
+  "title": "Mineral Exploration Licence Act"
+ },
+ {
+  "act_id": "BGD",
+  "title": "Community Project Grant Act"
+ },
+ {
+  "act_id": "BGM",
+  "title": "Burial Ground Maintenance Levies Act"
+ },
+ {
+  "act_id": "BHA",
+  "title": "Boating and Harbour Act"
+ },
+ {
+  "act_id": "BID",
+  "title": "Bridge Inspection Deadlines Act"
+ },
+ {
+  "act_id": "BLA",
+  "title": "Broadcasting Licences Act"
+ },
+ {
+  "act_id": "BLC",
+  "title": "Name Change Permit Act"
+ },
+ {
+  "act_id": "BLG",
+  "title": "Forestry Permit Act"
+ },
+ {
+  "act_id": "BMID",
+  "title": "Building Material Import Duties Act"
+ },
+ {
+  "act_id": "BML",
+  "title": "Broadcast Media Licences Act"
+ },
+ {
+  "act_id": "BMQI",
+  "title": "Building Material Quality Inspection Act"
+ },
+ {
+  "act_id": "BPG",
+  "title": "Biodiversity Protection Grants Act"
+ },
+ {
+  "act_id": "BPIA",
+  "title": "Business Premises Inspection Act"
+ },
+ {
+  "act_id": "BTA",
+  "title": "Inheritance Tax Act"
+ },
+ {
+  "act_id": "BVD",
+  "title": "Forestry Management Permit Act"
+ },
+ {
+  "act_id": "CAA",
+  "title": "Camping and Caravan Act"
+ },
+ {
+  "act_id": "CAFA",
+  "title": "Citizenship Application Fees Act"
+ },
+ {
+  "act_id": "CAV",
+  "title": "Export Duties Act"
+ },
+ {
+  "act_id": "CBH",
+  "title": "Electricity Supply Licence Act"
+ },
+ {
+  "act_id": "CBL",
+  "title": "Mineral Exploration Permit Act"
+ },
+ {
+  "act_id": "CBLA",
+  "title": "Customs Broker Licence Act"
+ },
+ {
+  "act_id": "CCA",
+  "title": "Childcare Fees Act"
+ },
+ {
+  "act_id": "CCFL",
+  "title": "Child Care Facility Licences Act"
+ },
+ {
+  "act_id": "CCL",
+  "title": "Cable Car Operating Licences Act"
+ },
+ {
+  "act_id": "CCOG",
+  "title": "Community Centre Operating Grants Act"
+ },
+ {
+  "act_id": "CDFA",
+  "title": "Customs Declaration Fees Act"
+ },
+ {
+  "act_id": "CDL",
+  "title": "Commercial Diving Licences Act"
+ },
+ {
+  "act_id": "CEFG",
+  "title": "Cultural Event Funding Grants Act"
+ },
+ {
+  "act_id": "CEGA",
+  "title": "Cultural Event Grants Act"
+ },
+ {
+  "act_id": "CGG",
+  "title": "Community Garden Grants Act"
+ },
+ {
+  "act_id": "CHA",
+  "title": "Child Benefit Act"
+ },
+ {
+  "act_id": "CHG",
+  "title": "Cultural Heritage Preservation Grants Act"
+ },
+ {
+  "act_id": "CHP",
+  "title": "Cultural Heritage Protection Grant Act"
+ },
+ {
+  "act_id": "CHS",
+  "title": "Cultural Heritage Site Inspection Act"
+ },
+ {
+  "act_id": "CHSP",
+  "title": "Cultural Heritage Site Protection Duties Act"
+ },
+ {
+  "act_id": "CIF",
+  "title": "Chimney Inspection Fees Act"
+ },
+ {
+  "act_id": "CLA",
+  "title": "Craftsman Licence Act"
+ },
+ {
+  "act_id": "CLC",
+  "title": "Fertiliser Production Permit Act"
+ },
+ {
+  "act_id": "CML",
+  "title": "Cemetery Maintenance Levies Act"
+ },
+ {
+  "act_id": "CMTA",
+  "title": "Construction Material Tariff Act"
+ },
+ {
+  "act_id": "CNPA",
+  "title": "Cable Network Permit Act"
+ },
+ {
+  "act_id": "COFA",
+  "title": "Certification of Origin Fees Act"
+ },
+ {
+  "act_id": "COLA",
+  "title": "Crematorium Operating Licences Act"
+ },
+ {
+  "act_id": "CORA",
+  "title": "Charitable Organisation Registration Act"
+ },
+ {
+  "act_id": "CPA",
+  "title": "Consumer Protection Act"
+ },
+ {
+  "act_id": "CPD",
+  "title": "Construction Project Deadlines Act"
+ },
+ {
+  "act_id": "CPFA",
+  "title": "Cemetery Plot Fees Act"
+ },
+ {
+  "act_id": "CPG",
+  "title": "Community Project Grants Act"
+ },
+ {
+  "act_id": "CPGA",
+  "title": "Cultural Preservation Grant Act"
+ },
+ {
+  "act_id": "CPP",
+  "title": "Crop Protection Product Permits Act"
+ },
+ {
+  "act_id": "CPW",
+  "title": "Coastal Protection Works Permit Act"
+ },
+ {
+  "act_id": "CRA",
+  "title": "Car Registration Act"
+ },
+ {
+  "act_id": "CRF",
+  "title": "Copyright Registration Fees Act"
+ },
+ {
+  "act_id": "CRFA",
+  "title": "Corporate Registration Fees Act"
+ },
+ {
+  "act_id": "CSC",
+  "title": "Chimney Sweep Certification Act"
+ },
+ {
+  "act_id": "CSI",
+  "title": "Chimney Sweep Inspection Fees Act"
+ },
+ {
+  "act_id": "CSIA",
+  "title": "Construction Safety Inspection Act"
+ },
+ {
+  "act_id": "CSR",
+  "title": "Chimney Sweep Registration Act"
+ },
+ {
+  "act_id": "CUL",
+  "title": "Cultural Events Act"
+ },
+ {
+  "act_id": "CVID",
+  "title": "Commercial Vehicle Inspection Deadlines Act"
+ },
+ {
+  "act_id": "CVOL",
+  "title": "Commercial Vehicle Operating Licences Act"
+ },
+ {
+  "act_id": "CVV",
+  "title": "Mineral Extraction Permits Act"
+ },
+ {
+  "act_id": "CWR",
+  "title": "Craft Workshop Registration Act"
+ },
+ {
+  "act_id": "DAD",
+  "title": "Development Application Deadlines Act"
+ },
+ {
+  "act_id": "DAS",
+  "title": "River Water Extraction Levy Act"
+ },
+ {
+  "act_id": "DCA",
+  "title": "Debt Collection Agency Licence Act"
+ },
+ {
+  "act_id": "DCF",
+  "title": "Death Certificate Fees Act"
+ },
+ {
+  "act_id": "DGTP",
+  "title": "Dangerous Goods Transport Permits Act"
+ },
+ {
+  "act_id": "DIDA",
+  "title": "Dam Inspection Duties Act"
+ },
+ {
+  "act_id": "DOP",
+  "title": "Drone Operation Permit Act"
+ },
+ {
+  "act_id": "DPO",
+  "title": "Data Protection Officer Registration Act"
+ },
+ {
+  "act_id": "DPRA",
+  "title": "Data Protection Registration Act"
+ },
+ {
+  "act_id": "DRA",
+  "title": "Driving Licence Act"
+ },
+ {
+  "act_id": "DSA",
+  "title": "Disability Support Act"
+ },
+ {
+  "act_id": "DSP",
+  "title": "Drainage System Permits Act"
+ },
+ {
+  "act_id": "DSPA",
+  "title": "Drainage System Permit Act"
+ },
+ {
+  "act_id": "DTA",
+  "title": "Digital Transformation Allowance Act"
+ },
+ {
+  "act_id": "DTH",
+  "title": "Death Registration Act"
+ },
+ {
+  "act_id": "DWP",
+  "title": "Drainage Works Permits Act"
+ },
+ {
+  "act_id": "ECFL",
+  "title": "Elderly Care Facility Licences Act"
+ },
+ {
+  "act_id": "EDA",
+  "title": "Education Fees Act"
+ },
+ {
+  "act_id": "EDM",
+  "title": "Pesticide Application Permits Act"
+ },
+ {
+  "act_id": "EHM",
+  "title": "Cemetery Establishment Permit Act"
+ },
+ {
+  "act_id": "EHP",
+  "title": "Explosives Handling Permits Act"
+ },
+ {
+  "act_id": "EID",
+  "title": "Elevator Inspection Deadlines Act"
+ },
+ {
+  "act_id": "EIF",
+  "title": "Elevator Inspection Fees Act"
+ },
+ {
+  "act_id": "EII",
+  "title": "Electrical Installation Inspections Act"
+ },
+ {
+  "act_id": "EIP",
+  "title": "Electrical Installation Permits Act"
+ },
+ {
+  "act_id": "EIPA",
+  "title": "Electrical Installation Permit Act"
+ },
+ {
+  "act_id": "ELA",
+  "title": "Elder Care Act"
+ },
+ {
+  "act_id": "ELFA",
+  "title": "Export Licence Fees Act"
+ },
+ {
+  "act_id": "ENA",
+  "title": "Energy Efficiency Grants Act"
+ },
+ {
+  "act_id": "EOL",
+  "title": "Elevator Operating Licences Act"
+ },
+ {
+  "act_id": "EPA",
+  "title": "Excavation Permit Act"
+ },
+ {
+  "act_id": "EPF",
+  "title": "Environmental Protection Fees Act"
+ },
+ {
+  "act_id": "EPR",
+  "title": "Education Provider Registration Act"
+ },
+ {
+  "act_id": "EQI",
+  "title": "Environmental Quality Inspection Deadlines Act"
+ },
+ {
+  "act_id": "ERG",
+  "title": "Ecological Restoration Grant Act"
+ },
+ {
+  "act_id": "ERP",
+  "title": "Ecological Restoration Project Grant Act"
+ },
+ {
+  "act_id": "ESG",
+  "title": "Entrepreneurial Support Grants Act"
+ },
+ {
+  "act_id": "ESI",
+  "title": "Electrical Systems Inspections Act"
+ },
+ {
+  "act_id": "EVA",
+  "title": "Events and Assemblies Act"
+ },
+ {
+  "act_id": "EXL",
+  "title": "Exhibition Licences Act"
+ },
+ {
+  "act_id": "FAFA",
+  "title": "Frequency Allocation Fees Act"
+ },
+ {
+  "act_id": "FAI",
+  "title": "Facility Accessibility Inspection Act"
+ },
+ {
+  "act_id": "FCF",
+  "title": "Plumbing Installation Permit Act"
+ },
+ {
+  "act_id": "FDA",
+  "title": "Fees and Duties Act"
+ },
+ {
+  "act_id": "FDL",
+  "title": "Firearms Dealers Licence Act"
+ },
+ {
+  "act_id": "FEI",
+  "title": "Fire Extinguisher Inspection Act"
+ },
+ {
+  "act_id": "FER",
+  "title": "Farm Equipment Registration Act"
+ },
+ {
+  "act_id": "FHA",
+  "title": "Food Hygiene Act"
+ },
+ {
+  "act_id": "FIA",
+  "title": "Fishing Licence Act"
+ },
+ {
+  "act_id": "FLA",
+  "title": "Fuel Levy Act"
+ },
+ {
+  "act_id": "FML",
+  "title": "Forestry Management Licences Act"
+ },
+ {
+  "act_id": "FMP",
+  "title": "Forestry Management Permits Act"
+ },
+ {
+  "act_id": "FOL",
+  "title": "Forestry Operation Licences Act"
+ },
+ {
+  "act_id": "FOLA",
+  "title": "Forestry Operations Licences Act"
+ },
+ {
+  "act_id": "FPH",
+  "title": "Cremation Permit Act"
+ },
+ {
+  "act_id": "FPK",
+  "title": "Company Formation Fees Act"
+ },
+ {
+  "act_id": "FPP",
+  "title": "Film Production Permit Act"
+ },
+ {
+  "act_id": "FSC",
+  "title": "Fire Safety Certificate Fees Act"
+ },
+ {
+  "act_id": "FSCA",
+  "title": "Fire Safety Certificate Act"
+ },
+ {
+  "act_id": "FSIA",
+  "title": "Fire Safety Inspections Act"
+ },
+ {
+  "act_id": "FTI",
+  "title": "Fair Trade Initiative Grant Act"
+ },
+ {
+  "act_id": "FTN",
+  "title": "Biotech Research Permit Act"
+ },
+ {
+  "act_id": "FVD",
+  "title": "Public Seating Installation Permits Act"
+ },
+ {
+  "act_id": "FVP",
+  "title": "Cremation Permits Act"
+ },
+ {
+  "act_id": "GAL",
+  "title": "Groundwater Abstraction Licence Act"
+ },
+ {
+  "act_id": "GDN",
+  "title": "Well Drilling Permit Act"
+ },
+ {
+  "act_id": "GEP",
+  "title": "Groundwater Extraction Permits Act"
+ },
+ {
+  "act_id": "GER",
+  "title": "Telecommunication Mast Permit Act"
+ },
+ {
+  "act_id": "GFT",
+  "title": "Gift Tax Act"
+ },
+ {
+  "act_id": "GHS",
+  "title": "Gas Supply Licence Act"
+ },
+ {
+  "act_id": "GML",
+  "title": "Graveyard Maintenance Levies Act"
+ },
+ {
+  "act_id": "GMP",
+  "title": "Groundwater Monitoring Permit Act"
+ },
+ {
+  "act_id": "GSFA",
+  "title": "Geological Survey Fees Act"
+ },
+ {
+  "act_id": "GSI",
+  "title": "Grain Storage Inspection Act"
+ },
+ {
+  "act_id": "GSML",
+  "title": "Green Space Maintenance Levies Act"
+ },
+ {
+  "act_id": "GTE",
+  "title": "Industrial Design Registration Fees Act"
+ },
+ {
+  "act_id": "HAE",
+  "title": "Historical Artifact Export Permit Act"
+ },
+ {
+  "act_id": "HAS",
+  "title": "Entrepreneurial Development Allowance Act"
+ },
+ {
+  "act_id": "HBG",
+  "title": "Historical Building Grants Act"
+ },
+ {
+  "act_id": "HBM",
+  "title": "Land Survey Fees Act"
+ },
+ {
+  "act_id": "HBR",
+  "title": "Heritage Building Renovation Grants Act"
+ },
+ {
+  "act_id": "HCA",
+  "title": "Health Care Fees Act"
+ },
+ {
+  "act_id": "HDV",
+  "title": "Privacy Impact Assessment Requirement Act"
+ },
+ {
+  "act_id": "HEP",
+  "title": "Handicraft Export Permit Act"
+ },
+ {
+  "act_id": "HFC",
+  "title": "Scaffolding Permits Act"
+ },
+ {
+  "act_id": "HFG",
+  "title": "Burial Permit Act"
+ },
+ {
+  "act_id": "HFK",
+  "title": "Archaeological Dig Permit Act"
+ },
+ {
+  "act_id": "HFP",
+  "title": "Hydroponic Farming Permits Act"
+ },
+ {
+  "act_id": "HGN",
+  "title": "Environmental Impact Assessment Fees Act"
+ },
+ {
+  "act_id": "HKT",
+  "title": "Public Art Installation Permits Act"
+ },
+ {
+  "act_id": "HMD",
+  "title": "Hazardous Material Disposal Licences Act"
+ },
+ {
+  "act_id": "HMH",
+  "title": "Heritage Protection Grant Act"
+ },
+ {
+  "act_id": "HMP",
+  "title": "Historical Monument Preservation Grants Act"
+ },
+ {
+  "act_id": "HMT",
+  "title": "Hazardous Material Transport Permits Act"
+ },
+ {
+  "act_id": "HOA",
+  "title": "Household Allowances Act"
+ },
+ {
+  "act_id": "HPB",
+  "title": "Rainwater Harvesting Permits Act"
+ },
+ {
+  "act_id": "HPG",
+  "title": "Heritage Property Grants Act"
+ },
+ {
+  "act_id": "HRD",
+  "title": "Hazardous Materials Transport Permit Act"
+ },
+ {
+  "act_id": "HRP",
+  "title": "Historical Records Preservation Act"
+ },
+ {
+  "act_id": "HSA",
+  "title": "Housing Support Act"
+ },
+ {
+  "act_id": "HSI",
+  "title": "Health and Safety Inspection Act"
+ },
+ {
+  "act_id": "HSLA",
+  "title": "Historical Site Maintenance Levy Act"
+ },
+ {
+  "act_id": "HSM",
+  "title": "Psychologist Licence Act"
+ },
+ {
+  "act_id": "HTP",
+  "title": "Heritage Tree Preservation Orders Act"
+ },
+ {
+  "act_id": "HUA",
+  "title": "Hunting Act"
+ },
+ {
+  "act_id": "HVRP",
+  "title": "Heavy Vehicle Route Permits Act"
+ },
+ {
+  "act_id": "HWDL",
+  "title": "Hazardous Waste Disposal Licences Act"
+ },
+ {
+  "act_id": "HWS",
+  "title": "Hazardous Waste Storage Permits Act"
+ },
+ {
+  "act_id": "HWTP",
+  "title": "Hazardous Waste Transport Permits Act"
+ },
+ {
+  "act_id": "IBLA",
+  "title": "Insurance Broker Licence Act"
+ },
+ {
+  "act_id": "ICPA",
+  "title": "Import Control Permit Act"
+ },
+ {
+  "act_id": "ICRA",
+  "title": "Identity Card Registration Act"
+ },
+ {
+  "act_id": "IDA",
+  "title": "Import Duties Act"
+ },
+ {
+  "act_id": "IDGA",
+  "title": "Infrastructure Development Grant Act"
+ },
+ {
+  "act_id": "IEP",
+  "title": "Industrial Emissions Permit Act"
+ },
+ {
+  "act_id": "IGA",
+  "title": "Innovation Grant Act"
+ },
+ {
+  "act_id": "IMD",
+  "title": "Infrastructure Maintenance Deadlines Act"
+ },
+ {
+  "act_id": "IMG",
+  "title": "Infrastructure Maintenance Grant Act"
+ },
+ {
+  "act_id": "INT",
+  "title": "Interpretation and Definitions Act"
+ },
+ {
+  "act_id": "IPG",
+  "title": "Innovation Project Grant Act"
+ },
+ {
+  "act_id": "ISAF",
+  "title": "Information Security Audit Fees Act"
+ },
+ {
+  "act_id": "JAC",
+  "title": "Journalism Accreditation Act"
+ },
+ {
+  "act_id": "KFC",
+  "title": "Cartography Permit Act"
+ },
+ {
+  "act_id": "KGH",
+  "title": "Crematorium Licence Act"
+ },
+ {
+  "act_id": "KRP",
+  "title": "Telecommunications Tower Permit Act"
+ },
+ {
+  "act_id": "KSC",
+  "title": "Wildlife Management Permit Act"
+ },
+ {
+  "act_id": "LAGA",
+  "title": "Legal Aid Grant Act"
+ },
+ {
+  "act_id": "LBSG",
+  "title": "Local Business Support Grants Act"
+ },
+ {
+  "act_id": "LBTA",
+  "title": "Local Business Tax Allowances Act"
+ },
+ {
+  "act_id": "LCP",
+  "title": "Land Clearing Permits Act"
+ },
+ {
+  "act_id": "LEB",
+  "title": "Public Art Installation Permit Act"
+ },
+ {
+  "act_id": "LGD",
+  "title": "Heritage Tree Protection Permit Act"
+ },
+ {
+  "act_id": "LIB",
+  "title": "Public Libraries Act"
+ },
+ {
+  "act_id": "LOA",
+  "title": "Lotteries Act"
+ },
+ {
+  "act_id": "LOL",
+  "title": "Landfill Operation Licences Act"
+ },
+ {
+  "act_id": "LPC",
+  "title": "Local Product Certification Act"
+ },
+ {
+  "act_id": "LRP",
+  "title": "Land Reclamation Permit Act"
+ },
+ {
+  "act_id": "LSL",
+  "title": "Land Surveyor Licence Act"
+ },
+ {
+  "act_id": "LSLA",
+  "title": "Land Surveying Licences Act"
+ },
+ {
+  "act_id": "LVM",
+  "title": "Patent Application Fees Act"
+ },
+ {
+  "act_id": "MCF",
+  "title": "Mining Concession Fees Act"
+ },
+ {
+  "act_id": "MCFA",
+  "title": "Mapping and Cartography Fees Act"
+ },
+ {
+  "act_id": "MDFA",
+  "title": "Meteorological Data Fees Act"
+ },
+ {
+  "act_id": "MDM",
+  "title": "Heritage Building Grants Act"
+ },
+ {
+  "act_id": "MDT",
+  "title": "Trade Guild Registration Act"
+ },
+ {
+  "act_id": "MEL",
+  "title": "Mineral Extraction Levies Act"
+ },
+ {
+  "act_id": "MELA",
+  "title": "Mineral Extraction Levy Act"
+ },
+ {
+  "act_id": "MEP",
+  "title": "Mining Exploration Permits Act"
+ },
+ {
+  "act_id": "MOG",
+  "title": "Museum Operating Grants Act"
+ },
+ {
+  "act_id": "MPR",
+  "title": "Medical Practitioner Registration Act"
+ },
+ {
+  "act_id": "MRA",
+  "title": "Municipal Relief Act"
+ },
+ {
+  "act_id": "MRPA",
+  "title": "Minor Roadworks Permits Act"
+ },
+ {
+  "act_id": "MRS",
+  "title": "Music Recording Studio Licence Act"
+ },
+ {
+  "act_id": "MSF",
+  "title": "Business Relocation Allowances Act"
+ },
+ {
+  "act_id": "MTA",
+  "title": "Mountain Trails Act"
+ },
+ {
+  "act_id": "MUS",
+  "title": "Museums Act"
+ },
+ {
+  "act_id": "NCRA",
+  "title": "Name Change Registration Act"
+ },
+ {
+  "act_id": "NDD",
+  "title": "Road Cutting Permits Act"
+ },
+ {
+  "act_id": "NGA",
+  "title": "Topography Rights Registration Fees Act"
+ },
+ {
+  "act_id": "NGC",
+  "title": "Environmental Impact Assessment Permit Act"
+ },
+ {
+  "act_id": "NPA",
+  "title": "Noise Permits Act"
+ },
+ {
+  "act_id": "NPAR",
+  "title": "Non-Profit Association Registration Act"
+ },
+ {
+  "act_id": "NPE",
+  "title": "Drainage System Inspection Act"
+ },
+ {
+  "act_id": "NPL",
+  "title": "Nursing Practice Licence Act"
+ },
+ {
+  "act_id": "NPLA",
+  "title": "Notary Public Licence Act"
+ },
+ {
+  "act_id": "NPP",
+  "title": "Newspaper Publication Permit Act"
+ },
+ {
+  "act_id": "NREP",
+  "title": "Natural Resource Extraction Permit Act"
+ },
+ {
+  "act_id": "NRM",
+  "title": "Nature Reserve Management Permit Act"
+ },
+ {
+  "act_id": "NSF",
+  "title": "Citizen Registration Act"
+ },
+ {
+  "act_id": "OAB",
+  "title": "Open-Air Burning Permits Act"
+ },
+ {
+  "act_id": "OHIA",
+  "title": "Occupational Health Inspection Act"
+ },
+ {
+  "act_id": "OPL",
+  "title": "Optometry Practice Licence Act"
+ },
+ {
+  "act_id": "OTS",
+  "title": "Official Document Translation Service Registration Act"
+ },
+ {
+  "act_id": "OWS",
+  "title": "On-Site Wastewater System Permits Act"
+ },
+ {
+  "act_id": "PAGA",
+  "title": "Public Art Grant Act"
+ },
+ {
+  "act_id": "PAL",
+  "title": "Pesticide Application Licences Act"
+ },
+ {
+  "act_id": "PAMA",
+  "title": "Public Amenity Maintenance Grant Act"
+ },
+ {
+  "act_id": "PAMD",
+  "title": "Public Art Maintenance Duties Act"
+ },
+ {
+  "act_id": "PAMI",
+  "title": "Public Art Maintenance Inspections Act"
+ },
+ {
+  "act_id": "PAV",
+  "title": "Performing Arts Venue Licence Act"
+ },
+ {
+  "act_id": "PAWF",
+  "title": "Public Access Wayleave Fees Act"
+ },
+ {
+  "act_id": "PBI",
+  "title": "Park Bench Installation Permits Act"
+ },
+ {
+  "act_id": "PBIA",
+  "title": "Property Boundary Inspection Act"
+ },
+ {
+  "act_id": "PCA",
+  "title": "Public Contracts Allowances Act"
+ },
+ {
+  "act_id": "PCB",
+  "title": "Professional Certification Body Accreditation Act"
+ },
+ {
+  "act_id": "PCL",
+  "title": "Pest Control Operator Licences Act"
+ },
+ {
+  "act_id": "PCM",
+  "title": "Public Clock Maintenance Levies Act"
+ },
+ {
+  "act_id": "PCR",
+  "title": "Pest Control Registration Act"
+ },
+ {
+  "act_id": "PEA",
+  "title": "Pensions Act"
+ },
+ {
+  "act_id": "PEGA",
+  "title": "Public Education Grants Act"
+ },
+ {
+  "act_id": "PFG",
+  "title": "Telecommunication Tower Permit Act"
+ },
+ {
+  "act_id": "PFM",
+  "title": "Public Fountain Maintenance Levies Act"
+ },
+ {
+  "act_id": "PFMD",
+  "title": "Public Fountain Maintenance Duties Act"
+ },
+ {
+  "act_id": "PGL",
+  "title": "Power Generation Licence Act"
+ },
+ {
+  "act_id": "PGM",
+  "title": "Public Garden Maintenance Levies Act"
+ },
+ {
+  "act_id": "PHA",
+  "title": "Pharmacy Act"
+ },
+ {
+  "act_id": "PHR",
+  "title": "Publishing House Registration Act"
+ },
+ {
+  "act_id": "PIFA",
+  "title": "Passport Issuance Fees Act"
+ },
+ {
+  "act_id": "PIK",
+  "title": "Public Information Kiosk Permits Act"
+ },
+ {
+  "act_id": "PIL",
+  "title": "Private Investigator Licence Act"
+ },
+ {
+  "act_id": "PLF",
+  "title": "Pilot Licence Fees Act"
+ },
+ {
+  "act_id": "PMD",
+  "title": "Public Amenities Maintenance Duties Act"
+ },
+ {
+  "act_id": "PPD",
+  "title": "Public Park Development Grant Act"
+ },
+ {
+  "act_id": "PPF",
+  "title": "Funeral Service Licences Act"
+ },
+ {
+  "act_id": "PPGA",
+  "title": "Public Path Maintenance Grant Act"
+ },
+ {
+  "act_id": "PQRA",
+  "title": "Professional Qualification Recognition Act"
+ },
+ {
+  "act_id": "PRA",
+  "title": "Property Registration Act"
+ },
+ {
+  "act_id": "PRIG",
+  "title": "Public Realm Improvement Grants Act"
+ },
+ {
+  "act_id": "PSA",
+  "title": "Public Safety Audit Act"
+ },
+ {
+  "act_id": "PSF",
+  "title": "Public Sports Facility Grants Act"
+ },
+ {
+  "act_id": "PSFA",
+  "title": "Postal Service Fees Act"
+ },
+ {
+  "act_id": "PSFL",
+  "title": "Private Security Firm Licences Act"
+ },
+ {
+  "act_id": "PSI",
+  "title": "Public Safety Inspections Act"
+ },
+ {
+  "act_id": "PSLA",
+  "title": "Professional Services Licence Act"
+ },
+ {
+  "act_id": "PSML",
+  "title": "Public Space Maintenance Levies Act"
+ },
+ {
+  "act_id": "PSP",
+  "title": "Petroleum Storage Permits Act"
+ },
+ {
+  "act_id": "PSPL",
+  "title": "Public Swimming Pool Licences Act"
+ },
+ {
+  "act_id": "PSR",
+  "title": "Professional Services Registration Act"
+ },
+ {
+  "act_id": "PSS",
+  "title": "Private Security Services Licences Act"
+ },
+ {
+  "act_id": "PTA",
+  "title": "Public Transport Fares Act"
+ },
+ {
+  "act_id": "PTL",
+  "title": "Property Tax Levies Act"
+ },
+ {
+  "act_id": "PTM",
+  "title": "Public Toilet Maintenance Duties Act"
+ },
+ {
+  "act_id": "PTOG",
+  "title": "Public Transport Operating Grants Act"
+ },
+ {
+  "act_id": "PTR",
+  "title": "Public Transport Route Permits Act"
+ },
+ {
+  "act_id": "PTRL",
+  "title": "Public Transport Route Licences Act"
+ },
+ {
+  "act_id": "PUIP",
+  "title": "Public Utility Installation Permits Act"
+ },
+ {
+  "act_id": "PVR",
+  "title": "Plant Variety Rights Registration Fees Act"
+ },
+ {
+  "act_id": "PWCA",
+  "title": "Public Works Contract Allowances Act"
+ },
+ {
+  "act_id": "PWCI",
+  "title": "Public Works Contract Inspection Deadlines Act"
+ },
+ {
+  "act_id": "PWCR",
+  "title": "Public Works Contract Registration Act"
+ },
+ {
+  "act_id": "PWF",
+  "title": "Public Water Feature Maintenance Levies Act"
+ },
+ {
+  "act_id": "PWK",
+  "title": "Pollution Control Permit Act"
+ },
+ {
+  "act_id": "PWL",
+  "title": "Public Weighbridge Licences Act"
+ },
+ {
+  "act_id": "PWPA",
+  "title": "Plumbing Work Permit Act"
+ },
+ {
+  "act_id": "PWR",
+  "title": "Public Works Contractor Registration Act"
+ },
+ {
+  "act_id": "QMS",
+  "title": "Quality Management System Certification Act"
+ },
+ {
+  "act_id": "RAP",
+  "title": "Roadside Amenity Permit Act"
+ },
+ {
+  "act_id": "RBS",
+  "title": "River Bank Stabilisation Grants Act"
+ },
+ {
+  "act_id": "RCA",
+  "title": "Radio Communication Apparatus Licences Act"
+ },
+ {
+  "act_id": "RCD",
+  "title": "Street Cleaning Duties Act"
+ },
+ {
+  "act_id": "RCF",
+  "title": "Public Footpath Maintenance Duties Act"
+ },
+ {
+  "act_id": "RCR",
+  "title": "Pipeline Installation Permit Act"
+ },
+ {
+  "act_id": "RDG",
+  "title": "Rural Development Grants Act"
+ },
+ {
+  "act_id": "RDI",
+  "title": "Research and Development Incentive Act"
+ },
+ {
+  "act_id": "RDIA",
+  "title": "Rental Dwelling Inspection Act"
+ },
+ {
+  "act_id": "REL",
+  "title": "Resource Extraction Levies Act"
+ },
+ {
+  "act_id": "REP",
+  "title": "Renewable Energy Project Grant Act"
+ },
+ {
+  "act_id": "RGA",
+  "title": "Research Grant Act"
+ },
+ {
+  "act_id": "RPA",
+  "title": "Tradesperson Licence Act"
+ },
+ {
+  "act_id": "RPC",
+  "title": "Recreational Path Construction Grant Act"
+ },
+ {
+  "act_id": "RRG",
+  "title": "Resource Recovery Grant Act"
+ },
+ {
+  "act_id": "RSA",
+  "title": "Road Safety Act"
+ },
+ {
+  "act_id": "RSL",
+  "title": "Radio Station Licence Act"
+ },
+ {
+  "act_id": "RSW",
+  "title": "Geological Survey Permit Act"
+ },
+ {
+  "act_id": "RWL",
+  "title": "River Water Extraction Levies Act"
+ },
+ {
+  "act_id": "RWP",
+  "title": "Roadworks Permits Act"
+ },
+ {
+  "act_id": "SBA",
+  "title": "Small Business Act"
+ },
+ {
+  "act_id": "SBSA",
+  "title": "Small Business Support Allowances Act"
+ },
+ {
+  "act_id": "SBSG",
+  "title": "Small Business Support Grants Act"
+ },
+ {
+  "act_id": "SCL",
+  "title": "Street Cleaning Levies Act"
+ },
+ {
+  "act_id": "SDG",
+  "title": "Sustainable Development Grant Act"
+ },
+ {
+  "act_id": "SFM",
+  "title": "Sporting Field Maintenance Grants Act"
+ },
+ {
+  "act_id": "SFR",
+  "title": "Street Furniture Repair Duties Act"
+ },
+ {
+  "act_id": "SGL",
+  "title": "Security Guard Licence Act"
+ },
+ {
+  "act_id": "SGP",
+  "title": "Water Well Drilling Permit Act"
+ },
+ {
+  "act_id": "SGT",
+  "title": "Cemetery Operation Licences Act"
+ },
+ {
+  "act_id": "SHR",
+  "title": "Cemetery Plot Purchase Fees Act"
+ },
+ {
+  "act_id": "SKP",
+  "title": "Livestock Registration Act"
+ },
+ {
+  "act_id": "SLMF",
+  "title": "Street Lighting Maintenance Fees Act"
+ },
+ {
+  "act_id": "SLML",
+  "title": "Street Lighting Maintenance Levies Act"
+ },
+ {
+  "act_id": "SML",
+  "title": "Seed Merchant Licence Act"
+ },
+ {
+  "act_id": "SMP",
+  "title": "Stormwater Management Permits Act"
+ },
+ {
+  "act_id": "SPA",
+  "title": "Sports Facilities Act"
+ },
+ {
+  "act_id": "SRP",
+  "title": "Scientific Research Permit Act"
+ },
+ {
+  "act_id": "SSA",
+  "title": "Student Support Act"
+ },
+ {
+  "act_id": "SSC",
+  "title": "Scientific Specimen Collection Permit Act"
+ },
+ {
+  "act_id": "SSIA",
+  "title": "Sewage System Inspection Act"
+ },
+ {
+  "act_id": "SSP",
+  "title": "Septic System Permits Act"
+ },
+ {
+  "act_id": "STA",
+  "title": "Street Trading Act"
+ },
+ {
+  "act_id": "STPP",
+  "title": "Sewage Treatment Plant Permits Act"
+ },
+ {
+  "act_id": "SWD",
+  "title": "Industrial Discharge Permits Act"
+ },
+ {
+  "act_id": "SWR",
+  "title": "Social Work Registration Act"
+ },
+ {
+  "act_id": "SYL",
+  "title": "Surveyor Licences Act"
+ },
+ {
+  "act_id": "TAG",
+  "title": "Road Maintenance Levy Act"
+ },
+ {
+  "act_id": "TGL",
+  "title": "Trade Guild Licences Act"
+ },
+ {
+  "act_id": "THH",
+  "title": "Quarrying Permit Act"
+ },
+ {
+  "act_id": "THL",
+  "title": "Timber Harvesting Licences Act"
+ },
+ {
+  "act_id": "THW",
+  "title": "Broadcasting Permit Act"
+ },
+ {
+  "act_id": "TIP",
+  "title": "Telecommunications Infrastructure Permits Act"
+ },
+ {
+  "act_id": "TKR",
+  "title": "Waste Discharge Permits Act"
+ },
+ {
+  "act_id": "TLA",
+  "title": "Toll Roads Act"
+ },
+ {
+  "act_id": "TNK",
+  "title": "Agricultural Grant Application Fees Act"
+ },
+ {
+  "act_id": "TOA",
+  "title": "Tobacco Retail Act"
+ },
+ {
+  "act_id": "TRFA",
+  "title": "Trademark Registration Fees Act"
+ },
+ {
+  "act_id": "TRR",
+  "title": "Monument Erection Permits Act"
+ },
+ {
+  "act_id": "TSF",
+  "title": "Pesticide Application Permit Act"
+ },
+ {
+  "act_id": "TSG",
+  "title": "Technological Start-up Grant Act"
+ },
+ {
+  "act_id": "TSL",
+  "title": "Trade Show Licences Act"
+ },
+ {
+  "act_id": "TSPL",
+  "title": "Telecommunications Service Provider Licence Act"
+ },
+ {
+  "act_id": "TTP",
+  "title": "Telecommunications Tower Permits Act"
+ },
+ {
+  "act_id": "TVM",
+  "title": "Dam Safety Inspections Act"
+ },
+ {
+  "act_id": "TXA",
+  "title": "Taxi Licensing Act"
+ },
+ {
+  "act_id": "UGI",
+  "title": "Urban Greening Initiative Allowance Act"
+ },
+ {
+  "act_id": "UGS",
+  "title": "Urban Green Space Grants Act"
+ },
+ {
+  "act_id": "VBA",
+  "title": "Veterans Benefits Act"
+ },
+ {
+  "act_id": "VBK",
+  "title": "Soil Remediation Permit Act"
+ },
+ {
+  "act_id": "VBT",
+  "title": "Tree Felling Permits Act"
+ },
+ {
+  "act_id": "VPA",
+  "title": "Visitor Permit Act"
+ },
+ {
+  "act_id": "VPL",
+  "title": "Veterinary Practice Licence Act"
+ },
+ {
+  "act_id": "VPLA",
+  "title": "Veterinary Practice Licences Act"
+ },
+ {
+  "act_id": "VRA",
+  "title": "Vermiculture Registration Act"
+ },
+ {
+  "act_id": "VSW",
+  "title": "Bridge Construction Permit Act"
+ },
+ {
+  "act_id": "WAL",
+  "title": "Water Abstraction Licences Act"
+ },
+ {
+  "act_id": "WAP",
+  "title": "Water Abstraction Permits Act"
+ },
+ {
+  "act_id": "WDPA",
+  "title": "Well Drilling Permits Act"
+ },
+ {
+  "act_id": "WDS",
+  "title": "Waste Disposal Site Permits Act"
+ },
+ {
+  "act_id": "WEL",
+  "title": "Water Extraction Levies Act"
+ },
+ {
+  "act_id": "WIP",
+  "title": "Waste Incineration Permits Act"
+ },
+ {
+  "act_id": "WMFL",
+  "title": "Waste Management Facility Licences Act"
+ },
+ {
+  "act_id": "WMIA",
+  "title": "Weights and Measures Inspection Act"
+ },
+ {
+  "act_id": "WMP",
+  "title": "Waste Management Permits Act"
+ },
+ {
+  "act_id": "WPA",
+  "title": "Work Permit Act"
+ },
+ {
+  "act_id": "WPD",
+  "title": "Broadcasting Licence Act"
+ },
+ {
+  "act_id": "WPF",
+  "title": "Waste Processing Facility Licences Act"
+ },
+ {
+  "act_id": "WPP",
+  "title": "Waste Processing Permits Act"
+ },
+ {
+  "act_id": "WQI",
+  "title": "Water Quality Inspection Act"
+ },
+ {
+  "act_id": "WRF",
+  "title": "Waste Recycling Facility Permits Act"
+ },
+ {
+  "act_id": "WRS",
+  "title": "Water Retaining Structure Inspections Act"
+ },
+ {
+  "act_id": "WSA",
+  "title": "Waste Services Act"
+ },
+ {
+  "act_id": "WTA",
+  "title": "Water Tariffs Act"
+ },
+ {
+  "act_id": "WTF",
+  "title": "Water Treatment Facility Permits Act"
+ },
+ {
+  "act_id": "WTS",
+  "title": "Waste Transfer Station Permits Act"
+ },
+ {
+  "act_id": "WWD",
+  "title": "Water Well Drilling Licences Act"
+ },
+ {
+  "act_id": "WWDP",
+  "title": "Water Well Drilling Permits Act"
+ },
+ {
+  "act_id": "YAG",
+  "title": "Youth Activities Grants Act"
+ },
+ {
+  "act_id": "YTA",
+  "title": "Youth Activities Act"
+ }
+]
